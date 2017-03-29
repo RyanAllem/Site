@@ -1,0 +1,12 @@
+
+<!ELEMENT head (titre)> 
+<!ELEMENT titre ( #PCDATA )> 
+<!ELEMENT body ( h1 | p | requete | table )>
+<!ELEMENT table ( tr | th )* >
+<!ELEMENT tr #PCDATA >
+<!ELEMENT p #PCDATA>
+<!ELEMENT h1 #PCDATA>
+<!ELEMENT requete (pre)>
+<!ELEMENT pre #PCDATA>
+
+
